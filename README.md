@@ -5,7 +5,7 @@ vcfErr.R takes an input VCF file (MUST BE PHASED) and simulates error by changin
 TESTED ON R VERSION 3.5.1
 
 each genotype is changed with some designated probability e.g. 0.001
-test.vcf is a VCF with 100,000 genotypes and 80 samples. One would expect approximately 100 errors per sample with an error of 0.001.
+test.vcf is a VCF with 994 genotypes and 80 samples.
 
 Requies packages:
 argparse, datatable, stringr
